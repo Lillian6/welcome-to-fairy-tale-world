@@ -1,0 +1,46 @@
+body{
+  background: url(images/bg-2.jpg);
+  margin-bottom: 60px;
+}
+
+.container{
+  /* additional attribute which are not written by the developer before */
+  /* overwrite the container */
+  padding: 80px 120px;
+}
+
+.person{
+  border:10px solid transparent;
+  margin-bottom: 25px;
+  height:80%
+  opacity:0.7;
+}
+
+#angel{
+  position: static;
+  padding-left: 100px;
+}
+
+.fas{
+  position: relative;
+  left:800px;
+  top:170px;
+}
+.person:hover{
+  border-color:#f1f1f1;
+}
+
+.blog-notes{
+  background-color: black;
+  color: white;
+}
+
+.carousel-inner > .item > img {
+ min-width: 100%;
+ max-height: 100px;
+}
+
+h3{
+  color: #E37986;
+  margin-top: 150px;
+}
